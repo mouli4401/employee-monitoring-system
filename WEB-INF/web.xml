@@ -1,0 +1,33 @@
+<web-app >   
+    <servlet>  
+      <servlet-name>newemp</servlet-name>  
+      <servlet-class>NewEmployee</servlet-class>  
+    </servlet>  
+    <servlet-mapping>  
+        <servlet-name>newemp</servlet-name>  
+        <url-pattern>/newemp</url-pattern>  
+    </servlet-mapping>  
+<servlet>  
+      <servlet-name>viewemp</servlet-name>  
+      <servlet-class>ViewEmployee</servlet-class>  </servlet>  
+    <servlet-mapping>  
+        <servlet-name>viewemp</servlet-name>  
+        <url-pattern>/viewemp</url-pattern>  
+    </servlet-mapping> 
+<servlet>  
+      <servlet-name>update</servlet-name>  
+      <servlet-class>UpdateEmployee</servlet-class>  
+    </servlet>  
+    <servlet-mapping>  
+        <servlet-name>update</servlet-name>  
+        <url-pattern>/update</url-pattern>  
+    </servlet-mapping>  
+<servlet>  
+      <servlet-name>delemp</servlet-name>  
+      <servlet-class>DeleteEmployee</servlet-class>  
+    </servlet>  
+    <servlet-mapping>  
+        <servlet-name>delemp</servlet-name>  
+        <url-pattern>/delemp</url-pattern>  
+    </servlet-mapping>  
+</web-app >
